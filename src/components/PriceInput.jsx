@@ -30,10 +30,10 @@ export default function PriceInput({ value, max, onChange = () => {} }) {
         top={9}
         right={18}
         fontWeight={500}
-        color="#f6f454"
+        color="#fff"
         fontFamily={"mooncheese"}
       >
-        ECH amount
+        CRO amount
       </Typography>
 
       <BnbInput

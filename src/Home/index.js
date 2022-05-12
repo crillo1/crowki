@@ -38,7 +38,7 @@ export default function Home() {
               <img src={img1}/>
               <a href="https://caimancoin.com/" target="__blank">
                 {/* <img src={twIcon} alt="" width={27} height={22} /> */}
-                Back
+                Crowki.com
               </a>
               <a href={config.scanLink} target="__blank">
                 {/* <img src={esIcon} alt="" width={27} height={27} /> */}
@@ -92,17 +92,17 @@ export default function Home() {
 
             <a href={config.scanLink} target="__blank">
                 {/* <img src={esIcon} alt="" width={27} height={27} /> */}
-                Caimancoin
+                Crowki.com
               </a>
               <a href={config.scanLink} target="__blank">
                 {/* <img src={esIcon} alt="" width={27} height={27} /> */}
                 Contract
               </a>
-              <a href="https://twitter.com/BakedBeansMiner" target="__blank">
+              <a href="https://twitter.com/crowki" target="__blank">
                 {/* <img src={twIcon} alt="" width={27} height={22} /> */}
                 Twitter
               </a>
-              <a href="https://twitter.com/BakedBeansMiner" target="__blank">
+              <a href="https://t.me/crowki_cro" target="__blank">
                 {/* <img src={twIcon} alt="" width={27} height={22} /> */}
                 Telegram
               </a>

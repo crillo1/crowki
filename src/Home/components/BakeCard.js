@@ -185,9 +185,9 @@ export default function BakeCard() {
             <img src={treasuryImg}></img>
             <div>
               {<div className="dataRow">
-              <div className="name"><h5>Contract holdings</h5>
+              <div className="name"><h5>Crowki Contract</h5>
               </div>
-              <div className="value"><h5>{contractBNB} ECH</h5></div>
+              <div className="value"><h5>{contractBNB} CRO</h5></div>
 
             </div>}
             </div>
@@ -200,7 +200,7 @@ export default function BakeCard() {
           <div style={{display: "flex"}}>
             <img src={profitImg}></img>
             <div>
-              <h5>Daily ROI</h5>
+              <h5>Daily Returns</h5>
               <h6>5 %</h6>
             </div>
           </div>
@@ -219,21 +219,21 @@ export default function BakeCard() {
       <div className="mainContent">
         <div className="box leftBox">
           {loading && <LinearProgress color="secondary" />}
-          <Typography variant="h5" style={{color:"white", fontFamily:"sans-serif", fontSize:"25px"}}>
-            <b>CHEF CAI WILL GRILL YOUR FISH</b>
+          <Typography variant="h5" style={{color:"black", fontFamily:"sans-serif", fontSize:"25px"}}>
+            <b>YOUR STATS:</b>
           </Typography>
           <div>
             {/*<div className="dataRow">
               <div className="name">Contract</div>
               <div className="value">{contractBNB} BNB</div>
               </div>*/}
-            <div style={{color:"blue", marginTop:"20px"}}>Your stats</div>
+            <div style={{color:"black", marginTop:"20px"}}></div>
             <div className="dataRow">
               <div className="name">Wallet</div>
-              <div className="value">{walletBalance.bnb} ECH</div>
+              <div className="value">{walletBalance.bnb} CRO</div>
             </div>
             <div className="dataRow">
-              <div className="name"> Your fishes</div>
+              <div className="name"> Your worms</div>
               <div className="value">{walletBalance.beans}</div>
             </div>
 
@@ -254,13 +254,13 @@ export default function BakeCard() {
                   disabled={wrongNetwork || !address || +bakeBNB === 0 || loading}
                   onClick={bake}
                 >
-                  <b>GRILL FISH</b>
+                  <b>COOK WORMS</b>
                 </Button>
               </Box>
               {/* <Divider /> */}
               {<div className="dataRow">
                 <div className="name"><h4>Rewards:</h4></div>
-                <div className="value"><h4>{walletBalance.rewards} ECH</h4></div>
+                <div className="value"><h4>{walletBalance.rewards} CRO</h4></div>
               </div>}
 
               {<ButtonContainer container>
@@ -273,7 +273,7 @@ export default function BakeCard() {
                     disabled={wrongNetwork || !address || loading}
                     onClick={reBake}
                   >
-                    <b>RE-GRILL</b>
+                    <b>RE-COOK</b>
                   </Button>
                 </Grid>
                 <Grid item flexGrow={1} marginLeft={1} marginTop={3}>
@@ -285,7 +285,7 @@ export default function BakeCard() {
                     disabled={wrongNetwork || !address || loading}
                     onClick={eatBeans}
                   >
-                    <b>EAT FISH</b>
+                    <b>EAT WORMS</b>
                   </Button>
                 </Grid>
               </ButtonContainer>}

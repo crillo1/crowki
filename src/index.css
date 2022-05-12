@@ -25,7 +25,7 @@ code {
   /* background-image: url(./assets/background.jpg); #47faff;*/
 
   /* background-color: #3f1809; */
-  background:  #59bb7d;
+  background:  #126469;
   min-height: 100vh;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -258,17 +258,17 @@ code {
 .home .leftBox {
   padding: 25px;
   /* background: #FA89F6; */
-  background: #59aa7b;
+  background: #69e9f0;
   border-radius: 20px;
 }
 
 .home .contractInfoCard {
   justify-content: space-between;
-  background: #59aa7b;
+  background: #69e9f0;
 }
 
 .home .profitInfoCard {
-  background: #59aa7b;
+  background: 69e9f0;
 }
 
 .home .dataRow {
@@ -319,23 +319,23 @@ code {
 .home .referral {
   /* font-family: cursive; */
   width: 800px;
-  background: #59aa7b;
+  background: #69e9f0;
   border-radius: 20px;
   padding: 20px;
   margin-top: 20px;
 }
 
 .home .referral h1 {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 .home .referral p {
-  font-size: 15px;
+  font-size: 20px;
   /* font-family: "Inter",sans-serif !important; */
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .home .referral .refWrapper {
@@ -366,7 +366,7 @@ a {
 }
 
 .button1 {
-  color: #71fe6c !important;
+  color: #000000 !important;
   box-shadow: none !important;
   border: 2px solid #000000 !important;
   border-radius: 5px !important;
@@ -375,7 +375,7 @@ a {
 }
 
 .button1:hover {
-  color: #dc6cfe !important;
+  color: #6ca6fe !important;
   border: 2px solid #71fe6c;
   border-radius: 5px !important;
 }
