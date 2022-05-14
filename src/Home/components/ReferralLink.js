@@ -15,11 +15,11 @@ const Input = styled("input")(({ theme }) => ({
   marginRight: "10px",
   borderRadius: "5px",
   border: "2px solid #0cbbfa",
-  backgroundColor: "transparent",
+  backgroundColor: "#006d9e",
   width: "100%",
   outline: "none",
   // color: theme.palette.primary.main,
-  color: "yellow",
+  color: "white",
   maxWidth:"85%"
 }));
 

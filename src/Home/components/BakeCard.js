@@ -181,60 +181,58 @@ export default function BakeCard() {
     <div>
       <div className="auxContent">
         <div className="box leftBox contractInfoCard" >
-          <div style={{display: "flex"}}>
-            <img src={treasuryImg}></img>
+        <div style={{marginTop:"20px"}}>
+            <div>
+            </div>
+            <div style={{display: "center"}}></div>
+
             <div>
               {<div className="dataRow">
               <div className="name"><h5>Crowki Contract</h5>
               </div>
               <div className="value"><h5>{contractBNB} CRO</h5></div>
+              <img src={treasuryImg}></img>
 
             </div>}
             </div>
           </div>
-          <Box paddingTop={1}>
-            
-          </Box>
         </div>
         <div className="box leftBox profitInfoCard">
           <div style={{display: "flex"}}>
             <img src={profitImg}></img>
             <div>
               <h5>Daily Returns</h5>
-              <h6>5 %</h6>
+              <h5><b>5%</b></h5>
             </div>
           </div>
-          <Box paddingTop={1}>
+
             <div className="dataRow">
-              <div className="name">APR</div>
-              <div className="value">1,880 %</div>
+              <div className="name"><h5><b>APR</b></h5></div>
+              <div className="value"><h4><b>1860 %</b></h4></div>
             </div>
             <div className="dataRow">
-              <div className="name">Dev</div>
-              <div className="value">4 %</div>
+              <div className="name"><h5><b>Deposit fee</b></h5></div>
+              <div className="value"><h4><b>5%</b></h4></div>
             </div>
-          </Box>
+
         </div>
       </div>
       <div className="mainContent">
         <div className="box leftBox">
           {loading && <LinearProgress color="secondary" />}
-          <Typography variant="h5" style={{color:"black", fontFamily:"sans-serif", fontSize:"25px"}}>
-            <b>YOUR STATS:</b>
-          </Typography>
           <div>
             {/*<div className="dataRow">
               <div className="name">Contract</div>
               <div className="value">{contractBNB} BNB</div>
               </div>*/}
-            <div style={{color:"black", marginTop:"20px"}}></div>
+            <div style={{color:"black", marginTop:"5px"}}></div>
             <div className="dataRow">
-              <div className="name">Wallet</div>
-              <div className="value">{walletBalance.bnb} CRO</div>
+              <div className="name"><h5><b>CRO in wallet:</b></h5></div>
+              <div className="value"><h5><b>{walletBalance.bnb} CRO</b></h5></div>
             </div>
             <div className="dataRow">
-              <div className="name"> Your worms</div>
-              <div className="value">{walletBalance.beans}</div>
+              <div className="name"> <h5><b>Your worms:</b></h5></div>
+              <div className="value"><h5><b>{walletBalance.beans}</b></h5></div>
             </div>
 
             <Box >
@@ -245,7 +243,7 @@ export default function BakeCard() {
                   onChange={(value) => onUpdateBakeBNB(value)}
                 />
               </Box>
-              <Box marginTop={2} marginBottom={0}>
+              <Box marginTop={4} marginBottom={4}>
                 <Button
                   className="button1"
                   color="secondary"
@@ -259,8 +257,8 @@ export default function BakeCard() {
               </Box>
               {/* <Divider /> */}
               {<div className="dataRow">
-                <div className="name"><h4>Rewards:</h4></div>
-                <div className="value"><h4>{walletBalance.rewards} CRO</h4></div>
+                <div className="name"><h3><b>Rewards:</b></h3></div>
+                <div className="value"><h3><b>{walletBalance.rewards} CRO</b></h3></div>
               </div>}
 
               {<ButtonContainer container>

@@ -35,14 +35,14 @@ export default function Home() {
         <div className="container">
           <div className="header">
             <div className="socialMedias">
-              <img src={img1}/>
+            
               <a href="https://caimancoin.com/" target="__blank">
                 {/* <img src={twIcon} alt="" width={27} height={22} /> */}
-                Crowki.com
+              
               </a>
               <a href={config.scanLink} target="__blank">
                 {/* <img src={esIcon} alt="" width={27} height={27} /> */}
-                Contract
+              
               </a>
             </div>
             <div className="walletWrapper" align='middle'>
@@ -92,19 +92,19 @@ export default function Home() {
 
             <a href={config.scanLink} target="__blank">
                 {/* <img src={esIcon} alt="" width={27} height={27} /> */}
-                Crowki.com
+                
               </a>
               <a href={config.scanLink} target="__blank">
                 {/* <img src={esIcon} alt="" width={27} height={27} /> */}
-                Contract
+                <h4>Contract</h4>
               </a>
               <a href="https://twitter.com/crowki" target="__blank">
                 {/* <img src={twIcon} alt="" width={27} height={22} /> */}
-                Twitter
+                <h4>Twitter</h4>
               </a>
               <a href="https://t.me/crowki_cro" target="__blank">
                 {/* <img src={twIcon} alt="" width={27} height={22} /> */}
-                Telegram
+                <h4>Telegram</h4>
               </a>
               <a href="" target="__blank">
                 {/* <img src={tgIcon} alt="" width={27} height={23} /> */}

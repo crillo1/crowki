@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: radial-gradient(circle at top right,rgba(68, 23, 94, 0.9) 0,#ff7cde 25%);
+  background: radial-gradient(circle at top right,rgba(#049fe5) 0,#049fe5 25%);
 }
 
 
@@ -47,7 +47,7 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 50px 0 0;
+  padding: 20px 0 0;
   /* color: white; */
 }
 
@@ -75,7 +75,7 @@ code {
   .home .header .socialMedias {
       width: 50%;
       text-align: center;
-      margin: 15px auto;
+      margin: 5px auto;
   }
 }
 
@@ -104,8 +104,7 @@ code {
 }
 
 .home .header .walletWrapper {
-  font-family: cursive;
-  font-family: "mooncheese";
+
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
@@ -117,6 +116,8 @@ code {
   border-radius: 10px;
   text-align: center;
   font-weight: 700;
+  background: linear-gradient(to bottom right, #049fe5, #69e9f0);
+  box-shadow: 2px 2px 4px #000000;
 }
 
 @media (max-width: 765px) {
@@ -130,11 +131,12 @@ code {
 
 .home .header .walletWrapper:hover {
   background-color: white;
-  color: green;
+  color: #ffffff !important;
+  box-shadow: 2px 2px 4px #00ffff;
 }
 
 .home .logo {
-  margin-top: 50px;
+  margin-top: 10px;
   width: 500px;
 }
 
@@ -196,13 +198,13 @@ code {
   justify-content: space-between;
   width: 700px;
   max-width: 100%;
-  margin: 50px auto 0;
+  margin: 10px auto 0;
   display: flex;
   justify-content: center;
   align-items: stretch;
   grid-gap: 20px;
   gap: 20px;
-  padding: 25px;
+  padding: 10px;
 }
 
 @media (max-width: 765px) {
@@ -219,6 +221,7 @@ code {
   width: 3.5rem;
   height: fit-content;
   margin-right: 10px;
+  align-content: center;
 }
 
 .home .auxContent h5 {
@@ -237,7 +240,7 @@ code {
 .home .mainContent {
   width: 800px;
   max-width: 100%;
-  margin: 50px auto 0;
+  margin: 10px auto 0;
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -256,15 +259,26 @@ code {
 }
 
 .home .leftBox {
-  padding: 25px;
+  padding: 20px;
   /* background: #FA89F6; */
-  background: #69e9f0;
+  background: linear-gradient(to bottom right, #049fe5, #69e9f0);
   border-radius: 20px;
+  box-shadow: 2px 2px 4px #000000;
 }
 
 .home .contractInfoCard {
   justify-content: space-between;
-  background: #69e9f0;
+  background: linear-gradient(to bottom right, #049fe5, #69e9f0);
+  align-content: center;
+  height: fit-content;
+  width: 800px;
+  max-width: 100%;
+  margin: 10px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  grid-gap: 10px;
+  gap: 10px;
 }
 
 .home .profitInfoCard {
@@ -284,7 +298,7 @@ code {
 .home .dataRow .value {
   /* font-weight: 600; */
   font-size: 15px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .home .rightBox {
@@ -303,26 +317,29 @@ code {
 }
 
 .home .mainContent .contractInfo {
-  background: rgb(107, 255, 164);
+  background: linear-gradient(to bottom right, #049fe5, #69e9f0);
   border-radius: 20px;
   padding: 20px;
   display: flex;
   align-content: center;
   justify-content: space-between;
+  height: fit-content;
 }
 
 .home .mainContent .contractInfo img {
   width: 32%;
   /* height: 90%; */
+  align-content: center;
 }
 
 .home .referral {
   /* font-family: cursive; */
   width: 800px;
-  background: #69e9f0;
+  background: linear-gradient(to bottom right, #049fe5, #69e9f0);
   border-radius: 20px;
   padding: 20px;
   margin-top: 20px;
+  box-shadow: 2px 2px 4px #000000;
 }
 
 .home .referral h1 {
@@ -356,8 +373,8 @@ code {
 
 .home .referral .refWrapper .copyButton:hover {
   cursor: pointer;
-  border: 2px solid yellow;
-  color: yellow;
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 
 }
 
@@ -372,19 +389,23 @@ a {
   border-radius: 5px !important;
   background: transparent !important;
   height: 47px;
+  text-shadow: 2px 2px 4px #b0f6ff;
 }
 
 .button1:hover {
-  color: #6ca6fe !important;
+  color: #ffffff !important;
   border: 2px solid #71fe6c;
   border-radius: 5px !important;
+  box-shadow: 2px 2px 4px #00ffff;
 }
 
 .home .container .footer {
-  margin: 120px auto 0;
+  margin: 20px auto 0;
+  font-family: monospace;
 }
 
 .home .container .footer a {
   color: white;
   padding: 10px;
+  font-family: monospace;
 }

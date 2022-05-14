@@ -10,7 +10,7 @@ const BnbInput = styled("input")({
   color: "#feec6c",
   borderRadius: 5,
   border: "2px solid #0cbbfa",
-  background: "#60504b",
+  background: "#006d9e",
   width: "100%",
   outline: "none",
   "&::-webkit-outer-spin-button, &::-webkit-inner-spin-button": {
@@ -22,7 +22,7 @@ const BnbInput = styled("input")({
 
 export default function PriceInput({ value, max, onChange = () => {} }) {
   return (
-    <Box position="relative" style={{marginTop:"20px"}}>
+    <Box position="relative" style={{marginTop:"10px"}}>
       
       <Typography
         fontSize={20}
@@ -31,7 +31,7 @@ export default function PriceInput({ value, max, onChange = () => {} }) {
         right={18}
         fontWeight={500}
         color="#fff"
-        fontFamily={"mooncheese"}
+        fontFamily={"moonspace"}
       >
         CRO amount
       </Typography>
