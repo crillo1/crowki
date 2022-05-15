@@ -1,6 +1,6 @@
 export const config = {
-  chainId: 97,
-  contractAddress: "0xa824d59615ec4eb6228feb55a07a6437f17de7d6",
+  chainId: 25,
+  contractAddress: "0x8612f7F5DE343D79d02cBF6a071B770C87391bf4",
   scanLink:
-    "https://testnet.bscscan.com/address/0xa824d59615ec4eb6228feb55a07a6437f17de7d6"
+    "https://cronoscan.com/address/0x8612f7f5de343d79d02cbf6a071b770c87391bf4"
 };

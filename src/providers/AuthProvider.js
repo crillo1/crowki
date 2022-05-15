@@ -25,9 +25,9 @@ const providerOptions = {
     package: WalletConnectProvider, // required
     options: {
       rpc: {
-        97: "https://data-seed-prebsc-1-s1.binance.org:8545",
+        25: "https://evm.cronos.org",
       },
-      network: "Binance test",
+      network: "Cronos",
     },
   },
 };
