@@ -98,7 +98,7 @@ export default function Home() {
                 {/* <img src={esIcon} alt="" width={27} height={27} /> */}
                 <h4>Contract</h4>
               </a>
-              <a href="https://twitter.com/crowki" target="__blank">
+              <a href="https://twitter.com/crowki_cro" target="__blank">
                 {/* <img src={twIcon} alt="" width={27} height={22} /> */}
                 <h4>Twitter</h4>
               </a>
