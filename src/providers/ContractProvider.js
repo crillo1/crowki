@@ -44,7 +44,7 @@ export const ContractProvider = ({ children }) => {
 
   const getBnbBalance = (address) => web3.eth.getBalance(address);
   const fromWei = (wei, unit = "ether") =>
-    parseFloat(Web3.utils.fromWei(wei, unit)).toFixed(3);
+    parseFloat(Web3.utils.fromWei(wei, unit)).toFixed(1);
   const toWei = (amount, unit = "ether") => Web3.utils.toWei(amount, unit);
 
   return (
